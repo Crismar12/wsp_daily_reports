@@ -1,47 +1,65 @@
 # daily-operation-reports
-Reportes de operaciones diarios. Tableros y mensajes.
+Daily operations reports. Dashboards and messages.
 
 <img width="411" height="498" alt="image" src="https://github.com/user-attachments/assets/14ae74b3-b911-4d6b-b92e-b50a714ea541" />
 
 
-## Reporte diario grupo whatsApp:
+## Daily Report WhatsApp Group:
 
-- Cuentas/Ventas
-  - Cuentas cerradas (@)
-  - Cuentas anuladas (@)
-  - Cantidad de platos vendidos (@)
-  - Cantidad de platos distintos vendidos (@)
-  - Pedidos a tiempo (@)
-  - Pedidos con retraso (@)
+- Accounts/Sales
 
-- Horarios
-  - Apertura (@)
-  - Cierre (@)
+- Closed Accounts (@)
 
-- Tareas operativas:
-  - Se hizo inventario (@)
-  - Se registraron mermas (@)
-  - Se registraron compras (@)
-  - Se registraron guías de consumo (@)
+- Cancelled Accounts (@)
 
-- Supervisión:
-  - Inventario correcto (@ + otros datos)
-  - Compras correctamente registradas (revisar outliers precios) (@ + otros datos)
-  - Cuadratura de caja en apertura (@?)
-  - Cuadratura de caja en cierre (@?)
-  
-- Planificación:
-  - Productos que se podrían acabar pronto (@ + otros datos)
-  - Productos que se podrías malograr pronto (@ + otros datos)
+- Number of Dishes Sold (@)
 
-@ --> datos que se pueden obtener de las apis de justo
+- Number of Different Dishes Sold (@)
 
+- On-Time Orders (@)
 
-## Reporte diario dashboard:
+- Late Orders (@)
 
-- Todo lo del whatsApp
-- Ingresos totales
-- Ganancias estimadas
+- Hours
+
+- Opening (@)
+
+- Closing (@)
+
+- Operational Tasks:
+
+- Inventory Taken (@)
+
+- Waste Recorded (@)
+
+- Purchases Recorded (@)
+
+- Consumption Guides Recorded (@)
+
+- Supervision:
+
+- Accurate Inventory (@ + other data)
+
+- Purchases Correctly Recorded (check price outliers) (@ + other data)
+
+- Cash Register Reconciliation at Opening (@?)
+
+- Cash Register Reconciliation at Closing (@?)
+
+- Planning:
+
+- Products That Could Run Out Soon (@ + other data)
+
+- Products That Could Spoil Soon (@ + other data)
+
+@ --> Data obtainable from Justo's APIs
+
+## Daily Dashboard Report:
+
+- All WhatsApp data
+- Total revenue
+- Estimated earnings
+---
 
 
 --- 
