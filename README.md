@@ -172,15 +172,6 @@ pytest tests/
 
 Contributions are welcome! Please check the [Pull Request Template](PULL_REQUEST_TEMPLATE.md) for guidelines.
 
-## 👨‍💻 Technical Highlights for Recruiters
-
-- **Full-Stack API Development**: RESTful API design with Flask
-- **Third-Party Integration**: Experience with multiple external APIs (Justo, Evolution)
-- **Data Engineering**: ETL processes with Pandas for business intelligence
-- **DevOps**: Docker containerization and deployment
-- **Clean Code**: Pre-commit hooks, linting, and code organization
-- **Production-Ready**: Error handling, logging, and security best practices
-- **Business Impact**: Measurable improvement in operational efficiency
 
 ## 📝 License
 
