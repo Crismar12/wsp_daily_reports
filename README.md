@@ -1,3 +1,6 @@
+### Note: 
+For confidentiality and data privacy reasons, sensitive data and environment variables have been removed. This repository serves as an architectural demonstration of the ETL pipeline / API logic.
+
 # 📊 WhatsApp Daily Operations Reports System
 
 > **Automated restaurant operations reporting system with API integration and WhatsApp notifications**
@@ -158,24 +161,6 @@ The API will be available at `http://localhost:5000`
 # Run tests (when implemented)
 pytest tests/
 ```
-
-## 📈 Future Enhancements
-
-- [ ] Interactive dashboard with Plotly/Dash
-- [ ] Historical trend analysis
-- [ ] Predictive analytics for inventory management
-- [ ] Multi-location support
-- [ ] Mobile application
-- [ ] Custom report templates
-
-## 🤝 Contributing
-
-Contributions are welcome! Please check the [Pull Request Template](PULL_REQUEST_TEMPLATE.md) for guidelines.
-
-
-## 📝 License
-
-This project showcases professional development practices for portfolio purposes.
 
 ## 📫 Contact
 
