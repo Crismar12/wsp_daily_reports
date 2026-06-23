@@ -58,7 +58,6 @@ src/
 ## 🚀 Technology Stack
 
 - **Backend**: Python 3.8, Flask 3.0.3
-- **Data Processing**: Pandas, NumPy
 - **API Integration**: Requests library for REST API consumption
 - **Containerization**: Docker, Docker Compose
 - **Environment Management**: python-dotenv
