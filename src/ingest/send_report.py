@@ -41,34 +41,6 @@ def send_report(date):
         [pago['shiftId'] for tab in tabs for pago in tab.get('payments', [])]
     )
 
-    # for tab in tabs:
-    #     # Validar que la cuenta fue creada hoy en Chile
-    #     creada_hoy = (
-    #         tab.get('createdAt')
-    #         and datetime.fromisoformat(tab['createdAt']).astimezone(tz_chile).date() == hoy
-    #     )
-    #     # Validar que la cuenta fue cerrada hoy en Chile
-    #     cerrada_hoy = (
-    #         tab.get('closedAt')
-    #         and datetime.fromisoformat(tab['closedAt']).astimezone(tz_chile).date() == hoy
-    #     )
-    #     pagada_hoy = False
-    #     shift_id_pago = None
-
-    #     # Buscar un pago hecho hoy en Chile
-    #     for pago in tab.get('payments', []):
-    #         if 'shiftId' in pago and pago['shiftId']:
-    #             fecha_pago = (
-    #                 datetime.fromisoformat(pago['createdAt']).astimezone(tz_chile).date()
-    #             )
-    #             if fecha_pago == hoy:
-    #                 pagada_hoy = True
-    #                 shift_id_pago = pago['shiftId']
-    #                 break
-
-    #     if creada_hoy and cerrada_hoy and pagada_hoy and shift_id_pago:
-    #         shift_ids.add(shift_id_pago)
-
     if not shift_ids:
         return jsonify({'error': 'No se encontraron shift_id válidos para hoy'}), 404
 
